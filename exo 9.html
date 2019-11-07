@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/CSS/exo 9.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="form.php">
+    <fieldset class="f1">
+        <legend class="f1">votre identité :</legend>
+
+        <ol>
+            <div>
+                <li>
+                    <label for="nom"> Nom : </label>
+                    <input type="text" id="nom" name="nom" placeholder="Nom :">
+                </li>
+            </div>
+            <div>
+                <li>
+                    <label for="nom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Prénom :">
+                </li>
+            </div>
+            <div>
+                <li>
+                    <label for="email">Adresse email</label>
+                    <input type="email" id="email" name="email" placeholder="Adresse email :">
+                </li>
+            </div>
+        </ol>
+    </fieldset>
+    
+    <fieldset class="f2">
+        <legend class="f2">Adresse de livraison :</legend>
+        <ol>
+            <div>
+                <li>
+                    <label for="adresse">Adresse :</label>
+                    <textarea name="adress" placeholder="Votre adresse :"></textarea>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <label for="code postal">Code postal :</label>
+                    <input type="text" id="code postal" name="code postal" placeholder="Code postal :">
+                </li>
+            </div>
+            <div>
+                <li>
+                    <label for="ville">Ville :</label>
+                    <input type="text" id="ville" name="ville" placeholder="Ville :">
+                </li>
+            </div>
+        </ol>
+
+    </fieldset>
+    <fieldset class="f3">
+        <legend class="f3">Informations de réglèment :</legend>
+        <ol>
+
+            <li>
+                <label for="type de carte">Type de carte bancaire</label></li>
+            <div>
+                <input type="radio" id="carte" name="carte" value="Visa">
+                <label for="carte visa">Visa</label>
+
+            </div>
+            <div>
+                <input type="radio" id="carte" name="carte" value="Master card">
+                <label for="carte mastercard">Master card</label>
+
+            </div>
+            <li>
+                <label for="numero de carte">Numero de carte :</label>
+                <input type="text" id="numero de carte" name="numero de carte" placeholder="Numero de carte :">
+            </li>
+            <li>
+                <label for="code de sécurité">Code de sécurité</label>
+                <input type="text" id="code de sécurité" name="code de sécurité" placeholder="Code de sécurité :">
+            </li>
+            <div>
+                <li>
+                    <label for="nom du titulaire">Nom du titulaire :</label>
+                    <input type="text" id="nom du titulaire" name="nom du titulaire" placeholder="nom du titulaire :">
+                </li>
+            </div>
+        </ol>
+    </fieldset>
+    <input class="buttonJachete" type="submit" value="J'achète">
+    </form>
+    
+
+
+
+
+
+
+</body>
+
+</html>
